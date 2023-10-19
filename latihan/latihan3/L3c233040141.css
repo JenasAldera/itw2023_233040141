@@ -1,3 +1,4 @@
+
 body {
     background: aqua;
     font-family: Georgia;
@@ -11,8 +12,12 @@ h1 {
 }
 
 h3 a{
-    text-decoration: none;
     color: white;
+}
+
+h3 a:hover {
+    color: red;
+    text-decoration: none;
 }
 
 h4 {
@@ -20,11 +25,22 @@ h4 {
     font-style: italic;
 }
 
-.teks1 {
+.A1 {
     text-align: center;
     color: orange
 }
 
-.teks2 {
+.A2 {
     text-align: right;
+
+}
+
+.A2 a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.A2 a:hover {
+    background: blue;
+    color: white;
 }
