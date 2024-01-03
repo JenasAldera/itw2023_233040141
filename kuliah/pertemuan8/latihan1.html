@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Box</title>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <style>
     * {
         margin: 0;
@@ -15,7 +15,7 @@
     .container {
         width: 50%;
         height: 600px;
-        margin: auto;
+        margin: 500px auto;
         border: 10px solid black;
         display: flex;
         justify-content: space-around;
@@ -32,9 +32,13 @@
 </head>
 <body>
     <div class="container">
-        <div class="box"></div>
-        <div class="box"></div>
+        <div class="box"data-aos="fade-up" data-aos-anchor-placement="top-bottom"></div>
+        <div class="box"data-aos="fade-up" data-aos-duration="2000"></div>
         <div class="box"></div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

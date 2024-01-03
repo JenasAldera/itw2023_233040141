@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Sale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Steam Cheap Key</h2>
+          <p class="sub-heading">Everything On Sale</p>
+        </div>
+        <div class="feature img-1">
+          <h4 class="price">Rp. 119.999</h4>
+          <p class="item">Best Seller</p>
+        </div>
+        <div class="feature img-2">
+          <h4 class="price">Rp. 59.000</h4>
+          <p class="item">On Sale</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Steam Cheap Key</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <h3>RPG</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore rerum possimus iusto, debitis laboriosam ab accusamus totam enim dolor quia sint error quaerat provident repudiandae. Unde voluptatem nobis assumenda.</p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Story-Telling</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore rerum possimus iusto, debitis laboriosam ab accusamus totam enim dolor quia sint error quaerat provident repudiandae. Unde voluptatem nobis assumenda.</p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>First-Person Shooter</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore rerum possimus iusto, debitis laboriosam ab accusamus totam enim dolor quia sint error quaerat provident repudiandae. Unde voluptatem nobis assumenda.</p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Visual Novel</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore rerum possimus iusto, debitis laboriosam ab accusamus totam enim dolor quia sint error quaerat provident repudiandae. Unde voluptatem nobis assumenda.</p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Games</h2>
+        <img src="img/NFS MW Steam Grid.png" alt="" />
+        <img src="img/Persona 5 Strikers Steam Grid.png" alt="" />
+        <img src="img/Project Wingman Steam Grid.png" alt="" />
+        <img src="img/Plants Vs Zombies Steam Grid.png" alt="" />
+        <img src="img/Assassin's Creed Black Flag Steam Grid.png" alt="" />
+        <img src="img/Bad Piggies Steam Grid.png" alt="" />
+        <img src="img/Final Fantasy XV Steam Grid.png" alt="" />
+        <img src="img/Bully Scholarship Edition Steam Grid.png" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
